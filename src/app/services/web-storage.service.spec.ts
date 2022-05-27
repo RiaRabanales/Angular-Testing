@@ -10,6 +10,7 @@ describe('WebStorageService', () => {
         TestBed.configureTestingModule({
             providers: [
                 { provide: HttpClient, useValue: jasmine.createSpyObj('HttpClient', [ 'get', 'put' ]) }
+                //revisar proyecto propio para los http() que tengo importados sin SpyObj
             ]
         });
         service = TestBed.inject(WebStorageService);
