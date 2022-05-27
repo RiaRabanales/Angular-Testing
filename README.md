@@ -4,6 +4,11 @@ This is the repository for the LinkedIn Learning course Angular: Testing and Deb
 ![Angular: Testing and Debugging][lil-thumbnail-url] 
 Errors caused by missing dependencies, undefined variables, or poorly formatted data can cause your web application to stop working. In this course, learn how to track down and eliminate these types of errors in your Angular applications through the process of testing and debugging. Instructor Derek Peruo breaks down common error messages and goes over a variety of testing and debugging options. He also covers code linting, shares some tips and tricks for avoiding pitfalls during development, and goes into writing custom error handlers to make it easier to work with errors as your application grows.
 
+## ESlint:
+npm install eslint --save-dev
+npx eslint --init
+(quitar TSlint deprecado)
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
